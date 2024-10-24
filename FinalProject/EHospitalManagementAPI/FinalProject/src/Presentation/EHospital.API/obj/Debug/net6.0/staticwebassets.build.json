@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "sjJ6vpTstz0GOc0Z41ICza0cv5l6Yer5iPL5dwQLebA=",
+  "Source": "EHospital.API",
+  "BasePath": "_content/EHospital.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

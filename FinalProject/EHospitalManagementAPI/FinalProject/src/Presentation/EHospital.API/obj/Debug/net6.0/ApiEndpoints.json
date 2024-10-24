@@ -1,0 +1,2141 @@
+[
+  {
+    "ContainingType": "EHospital.API.Controllers.AccountsControllers",
+    "Method": "Login",
+    "RelativePath": "api/AccountsControllers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LoginDTO.UsernameOrEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LoginDTO.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LoginDTO.RememberMe",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.AccountsControllers",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/AccountsControllers/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.AccountsControllers",
+    "Method": "ResetPassword",
+    "RelativePath": "api/AccountsControllers/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ResetPasswordDTO.Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ResetPasswordDTO.ResetToken",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ResetPasswordDTO.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ResetPasswordDTO.ConfirmPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.AccountsControllers",
+    "Method": "VerifyResetToken",
+    "RelativePath": "api/AccountsControllers/verify-reset-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ResetToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.AdminsController",
+    "Method": "ToActiveDoctor",
+    "RelativePath": "api/Admins/doctor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toActiveDoctorCommandRequest",
+        "Type": "EHospital.Application.Features.Commands.Admin.ToActiveDoctor.ToActiveDoctorCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.AdminsController",
+    "Method": "ToActiveField",
+    "RelativePath": "api/Admins/field",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toActiveFieldCommandRequest",
+        "Type": "EHospital.Application.Features.Commands.Admin.ToActiveField.ToActiveFieldCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.AdminsController",
+    "Method": "ToActiveInsurance",
+    "RelativePath": "api/Admins/Insurance",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toActiveInsuranceCommandRequest",
+        "Type": "EHospital.Application.Features.Commands.Admin.ToActiveInsurance.ToActiveInsuranceCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.AdminsController",
+    "Method": "ToActivePatient",
+    "RelativePath": "api/Admins/patient",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toActivePatientCommandRequest",
+        "Type": "EHospital.Application.Features.Commands.Admin.ToActivePatient.ToActivePatientCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.AdminsController",
+    "Method": "ToActiveReceptionist",
+    "RelativePath": "api/Admins/receptionist",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toActiveReceptionistCommandRequest",
+        "Type": "EHospital.Application.Features.Commands.Admin.ToActiveReceptionist.ToActiveReceptionistCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.AdminsController",
+    "Method": "ToActiveRoom",
+    "RelativePath": "api/Admins/room",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toActiveRoomCommandRequest",
+        "Type": "EHospital.Application.Features.Commands.Admin.ToActiveRoom.ToActiveRoomCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.AdminsController",
+    "Method": "ToActiveService",
+    "RelativePath": "api/Admins/service",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toActiveServiceCommandRequest",
+        "Type": "EHospital.Application.Features.Commands.Admin.ToActiveService.ToActiveServiceCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.AdminsController",
+    "Method": "ToActiveUser",
+    "RelativePath": "api/Admins/user",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toActiveUserCommandRequest",
+        "Type": "EHospital.Application.Features.Commands.Admin.ToActiveUser.ToActiveUserCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.BloodGroupsController",
+    "Method": "Get",
+    "RelativePath": "api/BloodGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllBloodGroupQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.BloodGroup.GetAllBloodGroup.GetAllBloodGroupQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.BloodGroupsController",
+    "Method": "GetById",
+    "RelativePath": "api/BloodGroups/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.DoctorsController",
+    "Method": "Get",
+    "RelativePath": "api/Doctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllDoctorQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Doctor.GetAllDoctor.GetAllDoctorQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.DoctorsController",
+    "Method": "Post",
+    "RelativePath": "api/Doctors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorPostDTO.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.Surname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.DOB",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.GenderIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.SeriaNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.RegistrationAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.CurrentAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.ExperienceYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.FieldIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.Salary",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.VOEN",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPostDTO.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.DoctorsController",
+    "Method": "Put",
+    "RelativePath": "api/Doctors",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorPutDTO.IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.Surname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.DOB",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.GenderIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.SeriaNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.RegistrationAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.CurrentAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.ExperienceYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.FieldIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.Salary",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.VOEN",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorPutDTO.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.DoctorsController",
+    "Method": "Delete",
+    "RelativePath": "api/Doctors",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.DoctorsController",
+    "Method": "GetAllActive",
+    "RelativePath": "api/Doctors/Active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllActiveDoctorQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Doctor.GetAllActiveDoctor.GetAllActiveDoctorQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.DoctorsController",
+    "Method": "GetById",
+    "RelativePath": "api/Doctors/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.DoctorsController",
+    "Method": "GetByName",
+    "RelativePath": "api/Doctors/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.DoctorsController",
+    "Method": "GetBySeriaNumber",
+    "RelativePath": "api/Doctors/SeriaNumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SeriaNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.FieldsController",
+    "Method": "Get",
+    "RelativePath": "api/Fields",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllFieldQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Field.GetAllField.GetAllFieldQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.FieldsController",
+    "Method": "Post",
+    "RelativePath": "api/Fields",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FieldPostDTO.PersonField",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.FieldsController",
+    "Method": "Put",
+    "RelativePath": "api/Fields",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FieldPutDTO.IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FieldPutDTO.PersonField",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.FieldsController",
+    "Method": "Delete",
+    "RelativePath": "api/Fields",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.FieldsController",
+    "Method": "GetAllActive",
+    "RelativePath": "api/Fields/Active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllActiveFieldQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Field.GetAllActiveField.GetAllActiveFieldQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.FieldsController",
+    "Method": "GetById",
+    "RelativePath": "api/Fields/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.FieldsController",
+    "Method": "GetByName",
+    "RelativePath": "api/Fields/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.GendersController",
+    "Method": "Get",
+    "RelativePath": "api/Genders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllGenderQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Gender.GetAllGender.GetAllGenderQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.GendersController",
+    "Method": "GetById",
+    "RelativePath": "api/Genders/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.InsurancesController",
+    "Method": "Get",
+    "RelativePath": "api/Insurances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllInsuranceQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Insurance.GetAllInsurance.GetAllInsuranceQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.InsurancesController",
+    "Method": "Post",
+    "RelativePath": "api/Insurances",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "InsurancePostDTO.PersonInsurance",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "InsurancePostDTO.Discount",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.InsurancesController",
+    "Method": "Put",
+    "RelativePath": "api/Insurances",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "InsurancePutDTO.IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "InsurancePutDTO.PersonInsurance",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "InsurancePutDTO.Discount",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.InsurancesController",
+    "Method": "Delete",
+    "RelativePath": "api/Insurances",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.InsurancesController",
+    "Method": "GetById",
+    "RelativePath": "api/Insurances/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.InsurancesController",
+    "Method": "GetByName",
+    "RelativePath": "api/Insurances/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.MailsController",
+    "Method": "SendMail",
+    "RelativePath": "api/Mails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MailSenderDTO.To",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MailSenderDTO.Subject",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MailSenderDTO.Body",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.PatientsController",
+    "Method": "Get",
+    "RelativePath": "api/Patients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllPatientQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Patient.GetAllPatient.GetAllPatientQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.PatientsController",
+    "Method": "Post",
+    "RelativePath": "api/Patients",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientPostDTO.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPostDTO.Surname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPostDTO.DOB",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPostDTO.GenderIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPostDTO.BloodGroupIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPostDTO.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPostDTO.SeriaNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPostDTO.RegistrationAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPostDTO.CurrentAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPostDTO.InsuranceIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPostDTO.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.PatientsController",
+    "Method": "Put",
+    "RelativePath": "api/Patients",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientPutDTO.IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPutDTO.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPutDTO.Surname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPutDTO.DOB",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPutDTO.GenderIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPutDTO.BloodGroupIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPutDTO.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPutDTO.SeriaNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPutDTO.RegistrationAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPutDTO.CurrentAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPutDTO.InsuranceIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientPutDTO.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.PatientsController",
+    "Method": "Delete",
+    "RelativePath": "api/Patients",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.PatientsController",
+    "Method": "GetAllActive",
+    "RelativePath": "api/Patients/Active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllActivePatientQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Patient.GetAllActivePatient.GetAllActivePatientQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.PatientsController",
+    "Method": "GetById",
+    "RelativePath": "api/Patients/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.PatientsController",
+    "Method": "GetByName",
+    "RelativePath": "api/Patients/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.PatientsController",
+    "Method": "GetBySeriaNumber",
+    "RelativePath": "api/Patients/SeriaNumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SeriaNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ReceptionistsController",
+    "Method": "Get",
+    "RelativePath": "api/Receptionists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllReceptionistQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Receptionist.GetAllReceptionist.GetAllReceptionistQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ReceptionistsController",
+    "Method": "Post",
+    "RelativePath": "api/Receptionists",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReceptionistPostDTO.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPostDTO.Surname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPostDTO.DOB",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPostDTO.GenderIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPostDTO.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPostDTO.SeriaNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPostDTO.RegistrationAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPostDTO.CurrentAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPostDTO.Salary",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPostDTO.VOEN",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPostDTO.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ReceptionistsController",
+    "Method": "Put",
+    "RelativePath": "api/Receptionists",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReceptionistPutDTO.IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPutDTO.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPutDTO.Surname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPutDTO.DOB",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPutDTO.GenderIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPutDTO.PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPutDTO.SeriaNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPutDTO.RegistrationAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPutDTO.CurrentAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPutDTO.Salary",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPutDTO.VOEN",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceptionistPutDTO.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ReceptionistsController",
+    "Method": "Delete",
+    "RelativePath": "api/Receptionists",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ReceptionistsController",
+    "Method": "GetAllActive",
+    "RelativePath": "api/Receptionists/Active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllActiveReceptionistQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Receptionist.GetAllActiveReceptionist.GetAllActiveReceptionistQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ReceptionistsController",
+    "Method": "GetById",
+    "RelativePath": "api/Receptionists/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ReceptionistsController",
+    "Method": "GetByName",
+    "RelativePath": "api/Receptionists/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ReceptionistsController",
+    "Method": "GetBySeriaNumber",
+    "RelativePath": "api/Receptionists/SeriaNumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SeriaNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RegistrationsController",
+    "Method": "Get",
+    "RelativePath": "api/Registrations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllRegistrationQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Registration.GetAllRegistration.GetAllRegistrationQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RegistrationsController",
+    "Method": "Post",
+    "RelativePath": "api/Registrations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RegistrationPostDTO.PatientComplaint",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPostDTO.PatientIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPostDTO.DoctorIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPostDTO.ServiceIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPostDTO.RoomIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPostDTO.ReceptionistIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPostDTO.AmountPaid",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPostDTO.ItPaid",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RegistrationsController",
+    "Method": "Put",
+    "RelativePath": "api/Registrations",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RegistrationPutDTO.IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPutDTO.PatientComplaint",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPutDTO.PatientIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPutDTO.DoctorIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPutDTO.ServiceIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPutDTO.RoomIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPutDTO.ReceptionistIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPutDTO.AmountPaid",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationPutDTO.ItPaid",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RegistrationsController",
+    "Method": "Delete",
+    "RelativePath": "api/Registrations",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RegistrationsController",
+    "Method": "GetAllActive",
+    "RelativePath": "api/Registrations/Active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllActiveRegistrationQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Registration.GetAllActiveRegistration.GetAllActiveRegistrationQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RegistrationsController",
+    "Method": "GetByDoctorId",
+    "RelativePath": "api/Registrations/DoctorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RegistrationsController",
+    "Method": "GetById",
+    "RelativePath": "api/Registrations/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ResultServicesController",
+    "Method": "Get",
+    "RelativePath": "api/ResultServices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllResultServiceQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.ResultService.GetAllResultService.GetAllResultServiceQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ResultServicesController",
+    "Method": "Post",
+    "RelativePath": "api/ResultServices",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ResultServicePostDTO.Result",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ResultServicePostDTO.RegistrationIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ResultServicesController",
+    "Method": "Put",
+    "RelativePath": "api/ResultServices",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ResultServicePutDTO.IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ResultServicePutDTO.Result",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ResultServicePutDTO.RegistrationIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ResultServicesController",
+    "Method": "Delete",
+    "RelativePath": "api/ResultServices",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ResultServicesController",
+    "Method": "GetAllActive",
+    "RelativePath": "api/ResultServices/Active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllActiveResultServiceQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.ResultService.GetAllActiveResultService.GetAllActiveResultServiceQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ResultServicesController",
+    "Method": "GetById",
+    "RelativePath": "api/ResultServices/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RolesController",
+    "Method": "Get",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllRoleQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Role.GetAllRole.GetAllRoleQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RolesController",
+    "Method": "Post",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RolePostDTO.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RolesController",
+    "Method": "Put",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RolePutDTO.IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RolePutDTO.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RolesController",
+    "Method": "Delete",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RolesController",
+    "Method": "GetById",
+    "RelativePath": "api/Roles/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RolesController",
+    "Method": "GetByName",
+    "RelativePath": "api/Roles/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RoomsController",
+    "Method": "Get",
+    "RelativePath": "api/Rooms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllRoomQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Room.GetAllRoom.GetAllRoomQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RoomsController",
+    "Method": "Post",
+    "RelativePath": "api/Rooms",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoomPostDTO.RoomCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoomPostDTO.Floor",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoomPostDTO.ServiceId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoomPostDTO.IsEmpty",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RoomsController",
+    "Method": "Put",
+    "RelativePath": "api/Rooms",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoomPutDTO.IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoomPutDTO.RoomCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoomPutDTO.Floor",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoomPutDTO.ServiceId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoomPutDTO.IsEmpty",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RoomsController",
+    "Method": "Delete",
+    "RelativePath": "api/Rooms",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RoomsController",
+    "Method": "GetAllActive",
+    "RelativePath": "api/Rooms/Active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllActiveRoomQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Room.GetAllActiveRoom.GetAllActiveRoomQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RoomsController",
+    "Method": "GetByCode",
+    "RelativePath": "api/Rooms/Code",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RoomsController",
+    "Method": "GetAllEmpty",
+    "RelativePath": "api/Rooms/Empty",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllEmptyRoomQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Room.GetAllEmptyRoom.GetAllEmptyRoomQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.RoomsController",
+    "Method": "GetById",
+    "RelativePath": "api/Rooms/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ServicesController",
+    "Method": "Get",
+    "RelativePath": "api/Services",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllServiceQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Service.GetAllService.GetAllServiceQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ServicesController",
+    "Method": "Post",
+    "RelativePath": "api/Services",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ServicePostDTO.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ServicePostDTO.FieldIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ServicePostDTO.Cost",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ServicesController",
+    "Method": "Put",
+    "RelativePath": "api/Services",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ServicePutDTO.IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ServicePutDTO.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ServicePutDTO.FieldIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ServicePutDTO.Cost",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ServicesController",
+    "Method": "Delete",
+    "RelativePath": "api/Services",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ServicesController",
+    "Method": "GetAllActive",
+    "RelativePath": "api/Services/Active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllActiveServiceQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.Service.GetAllActiveService.GetAllActiveServiceQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ServicesController",
+    "Method": "GetById",
+    "RelativePath": "api/Services/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.ServicesController",
+    "Method": "GetByName",
+    "RelativePath": "api/Services/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.UsersController",
+    "Method": "Get",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllUserQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.User.GetAllUser.GetAllUserQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.UsersController",
+    "Method": "Post",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserPostDTO.Fullname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserPostDTO.UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserPostDTO.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserPostDTO.ConfirmPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserPostDTO.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserPostDTO.RoleIdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.UsersController",
+    "Method": "Delete",
+    "RelativePath": "api/Users",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.UsersController",
+    "Method": "GetAllActive",
+    "RelativePath": "api/Users/Active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getAllActiveUserQueryRequest",
+        "Type": "EHospital.Application.Features.Queries.User.GetAllActiveUser.GetAllActiveUserQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.UsersController",
+    "Method": "GetById",
+    "RelativePath": "api/Users/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStr",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHospital.API.Controllers.UsersController",
+    "Method": "GetByUserName",
+    "RelativePath": "api/Users/UserName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
