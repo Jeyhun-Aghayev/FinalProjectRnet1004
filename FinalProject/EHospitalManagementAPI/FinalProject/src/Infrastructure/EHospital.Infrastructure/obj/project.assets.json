@@ -1719,11 +1719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj",
       "projectName": "EHospital.Infrastructure",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1742,8 +1742,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj": {
-              "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj"
+            "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj"
             }
           }
         }

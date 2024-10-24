@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\EHospital.API.csproj": {}
+    "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\EHospital.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj": {
+    "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj",
         "projectName": "EHospital.Application",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -30,8 +30,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\EHospital.Domain.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\EHospital.Domain.csproj"
+              "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\EHospital.Domain.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\EHospital.Domain.csproj"
               }
             }
           }
@@ -118,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\EHospital.Domain.csproj": {
+    "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\EHospital.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\EHospital.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\EHospital.Domain.csproj",
         "projectName": "EHospital.Domain",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\EHospital.Domain.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\EHospital.Domain.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -204,14 +204,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj": {
+    "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj",
         "projectName": "EHospital.Infrastructure",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -230,8 +230,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj"
+              "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj"
               }
             }
           }
@@ -306,14 +306,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\EHospital.Persistence.csproj": {
+    "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\EHospital.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\EHospital.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\EHospital.Persistence.csproj",
         "projectName": "EHospital.Persistence",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\EHospital.Persistence.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\EHospital.Persistence.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -332,8 +332,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj"
+              "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Core\\EHospital.Application\\EHospital.Application.csproj"
               }
             }
           }
@@ -418,14 +418,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\EHospital.API.csproj": {
+    "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\EHospital.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\EHospital.API.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\EHospital.API.csproj",
         "projectName": "EHospital.API",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\EHospital.API.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\EHospital.API.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -444,11 +444,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj"
+              "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Infrastructure\\EHospital.Infrastructure.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\EHospital.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\EHospital.Persistence.csproj"
+              "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\EHospital.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Infrastructure\\EHospital.Persistence\\EHospital.Persistence.csproj"
               }
             }
           }

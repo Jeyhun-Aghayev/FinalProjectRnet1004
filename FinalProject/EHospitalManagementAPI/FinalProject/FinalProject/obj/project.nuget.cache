@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9NR/XnmTMpE=",
+  "dgSpecHash": "6p2ExeF4VgQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\FinalProject\\FinalProject.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\FinalProject\\FinalProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100-preview.7.24407.12\\microsoft.net.sdk.compilers.toolset.9.0.100-preview.7.24407.12.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.7\\microsoft.windowsdesktop.app.ref.8.0.7.nupkg.sha512",

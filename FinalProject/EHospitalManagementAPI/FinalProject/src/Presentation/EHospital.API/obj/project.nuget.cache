@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RvAeRC3bslI=",
+  "dgSpecHash": "vJoKHSEIevY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\EHospital.API.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Clone\\FinalProjectRnet1004\\FinalProject\\EHospitalManagementAPI\\FinalProject\\src\\Presentation\\EHospital.API\\EHospital.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
